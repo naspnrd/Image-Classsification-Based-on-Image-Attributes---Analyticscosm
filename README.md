@@ -11,7 +11,7 @@ Link of the github for scrapper tool https://github.com/rarcega/instagram-scrape
 ```
 4. 
 5. After we have find it hard on what basis we our gonna decide that image is shareable or not, we have thought of on the basis of religious sentiments(like indian flag on slippers make indians crazy,or like someone hurts sentiments of other religion), marketing, product advertisement  
-5.After that we started our search for the hashtags which are banned or which can make the image non-shareable on instagram. you can find that in the ``` stopword.txt ```
+5.After that we started our search for the hashtags which are banned or which can make the image non-shareable on instagram. you can find that in the ``` stopwords.txt ```
 6. On the basis of that we have matched the hashtags in the user's post to our stopwords if anything matched then that post becomes non-shareable.
-```bash
-Next Part```
+``` bash
+Next Part ```
