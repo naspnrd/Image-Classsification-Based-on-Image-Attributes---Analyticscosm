@@ -30,4 +30,9 @@ Next Part ie mean no of likes predictor
 ``` Popular hashtags.txt  ```
 3. We actually tried to do something like that if users put popular tags below the post then it is more likely to be get more likes then not puttting popular tags so we decided to give some extra likes.
 4. So we make an attribute in the dataset regarding the counts of the popular hashtags and later use it. ``` dataset.csv ```
-5. Yet to make model...
+5. Now coming to model making we started off by exploring dataset and the features that did not seem to be relevant were removed from dataframe, all this was done after exploring sns heatmaps and scatter plots.
+6. Now since dataset was precleaned by us, we went ahead to choose a regression model(since we were predicting number of likes), and choose Logistic Regression model. Predictions from Logistic Regression model were compared to actual number of likes of images using 2 Scikit's model quality evaluation metrics(See code to check the 2 metrics), the results were not as expected. (P.S. : Of all the regressors that we tried RandomForest gave best results in all default parameters regressors and hence we proceeded to tune it.)
+7. Moved to Random Forest Regressor, and even the default regressor had outperformed the Logistic Regressor (as quality metrics showed), a change of 2 parameters only increased metric evaluations of random forest.
+8. Moved ahead to further hypertuning parameters of our regressor in step 7, used Cross Validation to search over a grid of parameters to select the best parameters for our regressor, and predictions on this fine-tuned regressor gave high ever quality metric so far.
+9. The predictions were combined with dafault metadata of the images for future refernce.
+10. For media submission metadata along with media can be now easily extracted for further completion of project and only these media files had to uploaded.
