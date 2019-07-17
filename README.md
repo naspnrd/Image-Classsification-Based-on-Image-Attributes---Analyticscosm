@@ -21,7 +21,7 @@ Link of the github for scrapper tool https://github.com/rarcega/instagram-scrape
 9.To get list of stopwords we looked and searched for the hashtags which are banned or which can make the image non-shareable on instagram. you can find that in the ``` stopwords.txt ```
 10. So far having filtered the original data-set we can now move to second part of the project which was to make predictor for the number of likes.
 
-P.S.: the data collection was not "just these 10 lines of code" but required an enormous amount of effors, time, patience and persistence. 😊😊 
+P.S.: the data collection was not "just these 10 lines" but required an enormous amount of effors, time, patience and persistence. 😊😊 
 ``` bash
 Next Part ie mean no of likes predictor
 ```
