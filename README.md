@@ -3,8 +3,12 @@
  
  https://naspnrd.github.io/Image-Classsification-Based-on-Image-Attributes---Analyticscosm/
  
-``` Step by Step Process..... ```
-```part one - Shareable or Non-Shareable.. ```
+```bash
+Step by Step Process.....
+```
+```bash
+part one - Shareable or Non-Shareable.. 
+```
 1. First, challenge was what to collect and how, so to begin with we tried to manually scrape instagram using web scrapping for a single user, for all the posts and their metadata, after failing to collect via web scrapping we looked out for new ways.
 2. We came across this tool https://github.com/rarcega/instagram-scraper, and we collected names of instagram users from all fields to make a balanced dataset.
 3. Instagram-scrapper, gives almost all the meta-data associated with the media files and using scrapper we collected the data of all instagram users choosen in above step.
@@ -36,3 +40,12 @@ Next Part ie mean no of likes predictor
 8. Moved ahead to further hypertuning parameters of our regressor in step 7, used Cross Validation to search over a grid of parameters to select the best parameters for our regressor, and predictions on this fine-tuned regressor gave high ever quality metric so far.
 9. The predictions were combined with dafault metadata of the images for future refernce.
 10. For media submission metadata along with media can be now easily extracted for further completion of project and only these media files had to uploaded.
+```bash
+Future Approach
+```
+```bash
+1. Use of Google Vision Api to use extract data from the text images and predict the positive and negativeness of the text and also on the comments of the post
+but the api is paid so we can't able to do it i.e sentiment analysis.
+If you guys have access to the Google Vision Api then you can also do the sentient analysis of the comments and retrieve text image and to further predictions
+That's it from our side..
+```
